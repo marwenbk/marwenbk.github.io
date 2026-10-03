@@ -46,6 +46,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .hero h1 { max-width: 780px; margin: 29px 0 30px; font-size: clamp(59px, 6.2vw, 96px); font-weight: 600; line-height: .99; letter-spacing: -.078em; }
 .hero h1 em { color: var(--accent); font-family: "Instrument Serif", Georgia, serif; font-weight: 400; letter-spacing: -.045em; }
 .hero-lede { max-width: 600px; margin: 0; color: var(--ink-soft); font-size: clamp(18px, 1.7vw, 22px); line-height: 1.55; }
+.hero-expertise { max-width: 600px; margin: 20px 0 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 26px; margin-top: 38px; }
 .button { display: inline-flex; align-items: center; justify-content: space-between; gap: 38px; min-height: 52px; padding: 14px 18px; text-decoration: none; font-weight: 700; font-size: 13px; }
 .button-accent { background: var(--accent); color: #211815; }
@@ -85,6 +86,11 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .case-heading h3 { margin: 0; font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: clamp(48px, 5vw, 76px); line-height: 1; letter-spacing: -.04em; }
 .case-heading > p { max-width: 270px; margin: 0 0 5px; color: var(--teal); font-size: 16px; font-weight: 600; line-height: 1.4; }
 .case-body > p { max-width: 780px; color: var(--ink-soft); font-size: 17px; line-height: 1.7; margin: 0 0 17px; }
+.case-body > .case-lede { color: var(--teal); font-size: 19px; line-height: 1.55; margin-bottom: 30px; }
+.case-step { max-width: 780px; margin-top: 26px; }
+.case-step h4 { margin: 0 0 9px; color: var(--teal); font: 600 11px/1.5 "IBM Plex Mono", monospace; letter-spacing: .06em; text-transform: uppercase; }
+.case-step p { margin: 0; color: var(--ink-soft); font-size: 17px; line-height: 1.7; }
+.case-step strong { color: var(--ink); font-weight: 600; }
 .case-details { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 27px; }
 .case-details span { border: 1px solid #c4d5cd; padding: 7px 10px; color: var(--teal); font: 500 10px "IBM Plex Mono", monospace; }
 .public-code { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 44px; margin-top: 35px; padding: 35px; background: #edf2ec; }
@@ -154,6 +160,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
   .case-meta { flex-direction: row; justify-content: space-between; margin-bottom: 24px; }
   .case-heading h3 { font-size: 58px; }
   .case-body > p { font-size: 16px; }
+  .case-body > .case-lede { font-size: 18px; margin-bottom: 25px; }
+  .case-step { margin-top: 24px; }
+  .case-step p { font-size: 16px; }
   .public-code { grid-template-columns: 1fr; gap: 22px; padding: 25px; }
   .public-code a { justify-self: start; }
   .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 22px; }
